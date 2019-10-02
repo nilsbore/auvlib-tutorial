@@ -4,6 +4,15 @@ auvlib tutorial for BTS 2019
 
 These are instructions for setting up the requirements for the tutorial. You will be handed out a USB stick containing the notebooks in this repo + data and, in the case of windows, auvlib itself. Note that the notebook `training.ipynb` requires pytorch, which we do not expect you to install (it is especially hard on windows).
 
+## If you just want to follow along
+
+You can actually see the commands and most of the output plots directly in this webpage.
+To look at them while I'm talking, just open in order:
+
+1. [parsing.ipynb](https://github.com/nilsbore/auvlib-tutorial/blob/master/parsing.ipynb)
+2. [processing.ipynb](https://github.com/nilsbore/auvlib-tutorial/blob/master/processing.ipynb)
+3. [training.ipynb](https://github.com/nilsbore/auvlib-tutorial/blob/master/training.ipynb)
+
 ## Linux instructions
 
 1. First, follow the instructions from [here](https://github.com/nilsbore/auvlib#dependencies) to compile auvlib, and make sure to add the installed lib folder to your `$PYTHONPATH`.
