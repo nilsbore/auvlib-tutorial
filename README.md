@@ -19,7 +19,7 @@ To look at them while I'm talking, just open in order:
 2. Make sure you have python2.7 installed
 3. Install the following python libraries: `jupyter`, `numpy`, `matplotlib`, `Pillow` (e.g. using `pip install jupyter numpy matplotlib Pillow`)
 4. Optionally, you can also try to install [pytorch](https://pytorch.org/) and `visdom`, with or without GPU support
-5. You will get a USB stick containing the data and notebooks from this repo at the tutorial session
+5. Execute `wget --no-check-certificate https://strands.pdc.kth.se/public/AUVLib_tutorial/auvlib_tutorial_example_data.zip && unzip auvlib_tutorial_example_data.zip` inside the repo folder
 6. To try if it works, go the folder containing e.g. `parsing.ipynb` in the terminal and execute `jupyter notebook`. Try clicking on the `parsing` notebook and execute the first cell by clicking it and pressing ``ctrl+enter`
 
 ## Windows instructions
