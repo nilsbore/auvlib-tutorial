@@ -4,6 +4,8 @@ auvlib tutorial for BTS 2019
 
 These are instructions for setting up the requirements for the tutorial. You will be handed out a USB stick containing the notebooks in this repo + data and, in the case of windows, auvlib itself. Note that the notebook `training.ipynb` requires pytorch, which we do not expect you to install (it is especially hard on windows).
 
+Network definitions have been adapted from [junyanz](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix).
+
 ## If you just want to follow along
 
 You can actually see the commands and most of the output plots directly in this webpage.
