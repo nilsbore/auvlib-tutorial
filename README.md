@@ -22,14 +22,14 @@ To look at them while I'm talking, just open in order:
 3. Install the following python libraries: `jupyter`, `numpy`, `matplotlib`, `Pillow` (e.g. using `pip install jupyter numpy matplotlib Pillow`)
 4. Optionally, you can also try to install [pytorch](https://pytorch.org/) and `visdom`, with or without GPU support
 5. In the workshop session, copy the provided example data and unzip using `unzip auvlib_tutorial_example_data.zip` inside the repo folder
-6. To try if it works, go the folder containing e.g. `parsing.ipynb` in the terminal and execute `jupyter notebook`. Try clicking on the `parsing` notebook and execute the first cell by clicking it and pressing ``ctrl+enter`
+6. To try if it works, go the folder containing e.g. `parsing.ipynb` in the terminal and execute `jupyter notebook`. Try clicking on the `parsing` notebook and execute the first cell by clicking it and pressing `ctrl+enter`
 
 ## Windows instructions
 
 1. If you do not have python2.7 and pip installed, use [this guide](https://github.com/BurntSushi/nfldb/wiki/Python-&-pip-Windows-installation) to download and install **64-bit python2.7** and pip, and add the proper paths to your environment variables
 2. Execute `pip install jupyter numpy matplotlib Pillow`
 3. In the BTS tutorial session, you will get a USB stick containing the notebooks from this repo, the data and auvlib. Optionally, if you want a system wide installation of auvlib, you can download it from the [releases page](https://github.com/nilsbore/auvlib/releases)
-4. To try if it works, go the folder containing e.g. `parsing.ipynb` in the command prompt and execute `jupyter notebook`. Try clicking on the `parsing` notebook and execute the first cell by clicking it and pressing ``ctrl+enter`
+4. To try if it works, go the folder containing e.g. `parsing.ipynb` in the command prompt and execute `jupyter notebook`. Try clicking on the `parsing` notebook and execute the first cell by clicking it and pressing `ctrl+enter`
 
 ## MacOS instructions
 
