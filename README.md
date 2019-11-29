@@ -1,8 +1,10 @@
 # auvlib-tutorial
 
-auvlib tutorial for ODF Workshop in Gothenburg 2019
+auvlib tutorial for ODF Workshop in Gothenburg 2019.
 
 These are instructions for setting up the requirements for the tutorial. You will be handed out a USB stick containing the notebooks in this repo + data and, in the case of windows, auvlib itself. Note that the the last notebook `training.ipynb` requires pytorch and visdom, which we do not expect you to install (it is especially hard on windows).
+
+**NOTE**: if you have any problems with the instructions, please [open an issue here](https://github.com/nilsbore/auvlib-tutorial/issues) and I will try to help out.
 
 Network definitions have been adapted from [junyanz](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix).
 
