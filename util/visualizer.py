@@ -119,7 +119,7 @@ class Visualizer():
         #image = cv2.imread("colorbar.png")
         image = imread("colorbar.png")
         #print "IMAMDA", image.shape
-        images = [image[:, -image.shape[1]/2+60:].transpose([2, 0, 1])]
+        images = [image[:, -image.shape[1]//2+60:, :3].transpose([2, 0, 1])]
         #print "Images 0 shape:", images[0].shape
         label_html = ''
 
@@ -228,10 +228,14 @@ class Visualizer():
             self.plot_data = {'X': [], 'Y': [], 'legend': list(losses.keys())}
         self.plot_data['X'].append(epoch + counter_ratio)
         self.plot_data['Y'].append([losses[k] for k in self.plot_data['legend']])
+        print("X len: ", len(self.plot_data['X']), "Y len: ", len(self.plot_data['Y']))
+        #print("Y shape: ", self.plot_data['X'][-1].shape, "Y len: ", self.plot_data['Y'][-1].shape)
+        print("X: ", np.stack([np.array(self.plot_data['X'])] * len(self.plot_data['legend']), 1).shape)
+        print("Y: ", np.array(self.plot_data['Y']).shape)
         try:
             self.vis.line(
-                X=np.stack([np.array(self.plot_data['X'])] * len(self.plot_data['legend']), 1),
-                Y=np.array(self.plot_data['Y']),
+                X=np.stack([np.array(self.plot_data['X'])] * len(self.plot_data['legend']), 1).reshape(-1),
+                Y=np.array(self.plot_data['Y']).reshape(-1),
                 opts={
                     'title': self.name + ' loss over time',
                     'legend': self.plot_data['legend'],
